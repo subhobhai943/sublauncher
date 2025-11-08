@@ -18,10 +18,10 @@ jobs:
         distribution: 'zulu'
         java-version: '17'
         cache: gradle
-    - name: Give build.gradle permissions
-      run: chmod +x ./build.gradle
+    - name: Give gradlew permissions
+      run: chmod +x ./gradlew
     - name: Build debug APK
-      run: ./build.gradle :app_sublauncher:assembleDebug
+      run: ./gradlew :app_sublauncher:assembleDebug
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
       with:
