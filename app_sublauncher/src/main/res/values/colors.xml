@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- SubLauncher Primary Colors -->
+    <color name="primary">#FF2E7D32</color>
+    <color name="primary_dark">#FF1B5E20</color>
+    <color name="primary_light">#FF4CAF50</color>
+    
+    <!-- SubLauncher Accent Colors -->
+    <color name="accent">#FF00BCD4</color>
+    <color name="accent_dark">#FF0097A7</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#FF121212</color>
+    <color name="surface">#FF1E1E1E</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+</resources>
